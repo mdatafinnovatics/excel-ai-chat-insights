@@ -16,8 +16,8 @@ Public Function BuildPrompt(ByVal chatText As String, ByVal driverName As String
     examples = BuildExamplesText()
     todayStr = Format(Date, "mm/dd/yyyy")
     
-    p = "You are an expert dispatch data extraction assistant for SUKH Window Express (Canadian trucking). " & _
-        "Read the iMessage conversation between dispatcher Jacob Shapero and driver " & driverName & " below. " & _
+    p = "You are an expert dispatch data extraction assistant for Canadian trucking company. " & _
+        "Read the iMessage conversation between dispatcher and driver " & driverName & " below. " & _
         "Extract every individual driver EVENT into a structured JSON row." & vbLf & vbLf
     
     p = p & "# CONTEXT" & vbLf
