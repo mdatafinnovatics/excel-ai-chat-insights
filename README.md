@@ -24,11 +24,11 @@ tasks and deadlines. This tool does it in one click.
 
 **Input – raw chat messages**
 
-![Input](input.png)
+See the attachments
 
 **Output – AI-generated structured table**
 
-![Output](output.png)
+See the attachments
 
 ## How it works
 
